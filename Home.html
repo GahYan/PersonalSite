@@ -2,7 +2,6 @@
 <html>
 <head>
 <style>
-
 {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0}
 .mySlides {display:none}
@@ -80,7 +79,6 @@ body {font-family: Verdana,sans-serif;margin:0}
 width:100%;
    
 }
-
 .container a {
     float: left;
     font-size: 16px;
@@ -89,12 +87,10 @@ width:100%;
     padding: 14px 16px;
     text-decoration: none;
 }
-
 .dropdown {
     float: left;
     overflow: hidden;
 }
-
 .dropdown .dropbtn {
     font-size: 16px;    
     border: none;
@@ -103,11 +99,9 @@ width:100%;
     padding: 14px 16px;
     background-color: inherit;
 }
-
 .container a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -116,7 +110,6 @@ width:100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
     float: none;
     color: black;
@@ -125,17 +118,34 @@ width:100%;
     display: block;
     text-align: left;
 }
-
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
 .mySlides fade{width:100%;}
 body{margin-left:50px;
-margin-right:50px;}
+margin-right:50px;
+}
+
+p.intro{font-family: helvetica;
+font-size: 25px;
+color:brown;
+text-align: center;
+}
+p.hello{font-size:40px;
+  color:purple;
+font-family:fantasy;
+text-align: center;}
+.writing{line-height:30%;}
+.poetry{line-height:40px;
+position:relative;
+
+margin: 50px 200px 50px 200px;
+background-color: rgb(253,245,230);}
+
+
 </style>
 </head>
 <body>
@@ -180,7 +190,19 @@ margin-right:50px;}
   </div> 
   <a href="#news">Link</a>
 </div>
-<div class="writing"> <p class="intro"><span class="hello">Hello Beautiful World! My name is Allison.</span> I have come to rescue you with my team of 7 billion people.</p>
+<div class="writing"> <p class="hello">Hello Beautiful World! My name is Allison.</p> <p class="intro">I have come to rescue you with my team of 7 billion people.</p>  </div>
+<div class="poetry"><header class="title"> This is Just to Say</header>
+<header class="author"> by William Carlos Williams</header>
+<p class="poem">I have eaten the plums that were in the icebox <br/> and which
+you were probably
+saving
+for breakfast<br/>
+
+Forgive me
+they were delicious
+so sweet
+and so cold </p> </div>
+
 
 <script>
 var slideIndex = 1;
